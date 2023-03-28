@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
 
 const App = () => {
 
   return (
-    <div className="App">
-      
+    <div className="background">
     </div>
   )
 }
 
-export default App
+export default App;

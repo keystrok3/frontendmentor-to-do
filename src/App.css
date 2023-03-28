@@ -1,0 +1,16 @@
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url('assets/images/bg-mobile-light.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+}
+

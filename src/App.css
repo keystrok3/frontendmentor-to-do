@@ -2,7 +2,7 @@
 .background {
     height: 100vh;
     width: 100%;
-    background-color: hsl(0, 0%, 98%);
+    background-color: hsl(233, 11%, 84%);
     background-image: url('assets/images/bg-mobile-light.jpg');
     background-position: top;
     background-repeat: no-repeat;
@@ -14,3 +14,15 @@ img {
     width: 100%;
 }
 
+
+.todo-main {
+    color: hsl(0, 0%, 98%);
+    margin: 3em auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-input {
+    border: none;
+}

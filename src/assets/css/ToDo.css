@@ -1,0 +1,39 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-input {
+    width: 100%;
+}
+
+.todo-input input {
+    width: 100%;
+    padding: 1em;
+    outline: none;
+}
+
+.todo-list {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(235, 19%, 35%);
+    border-radius: 2px;
+    margin-top: 1em;
+    font-size: .6rem;
+    box-shadow: .1em .1em .5em hsl(236, 9%, 61%);
+}
+
+.todo-list .info-panel {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
